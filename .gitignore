@@ -1,0 +1,54 @@
+# Python
+
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+
+env/
+venv/
+rag_env/
+.venv/
+
+# Jupyter / Spyder
+
+.ipynb_checkpoints/
+.spyproject/
+.spyderproject
+
+# Environment variables (IMPORTANT)
+
+.env
+*.env
+
+# API keys / secrets
+
+config.py
+secrets.py
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Logs
+
+*.log
+
+# VS Code
+
+.vscode/
+
+# Data / vector DB (optional but recommended)
+
+*.faiss
+*.pkl
+db/
+vectorstore/
+
+# Temporary files
+
+*.tmp
+*.bak
